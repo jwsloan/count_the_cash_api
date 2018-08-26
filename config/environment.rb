@@ -1,5 +1,6 @@
 require "bundler/setup"
 require "hanami/setup"
+# require "hanami/middleware/body_parser"
 require "hanami/model"
 require_relative "../lib/count_the_cash_api"
 require_relative "../apps/api/application"
