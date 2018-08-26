@@ -22,6 +22,7 @@ end
 group :test do
   gem "capybara"
   gem "minitest"
+  gem "minitest-matchers_vaccine"
 end
 
 group :production do
