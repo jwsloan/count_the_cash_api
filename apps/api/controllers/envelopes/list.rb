@@ -5,7 +5,10 @@ module Api
         include Api::Action
         accept :json
 
+        expose :envelopes
+
         def call(params)
+          @envelopes = EnvelopeRepository.new.all
         end
       end
     end

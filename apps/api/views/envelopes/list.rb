@@ -6,7 +6,7 @@ module Api
         layout false
 
         def render
-          "[]"
+          _raw JSON.dump(envelopes.map{ |envelope| envelope.to_h })
         end
       end
     end

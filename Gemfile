@@ -4,7 +4,6 @@ gem "hanami", "~> 1.3.beta1"
 gem "hanami-model", "~> 1.3.beta1"
 gem "rake"
 
-gem "jsonapi-hanami"
 gem "ramsey_cop"
 gem "sqlite3"
 
