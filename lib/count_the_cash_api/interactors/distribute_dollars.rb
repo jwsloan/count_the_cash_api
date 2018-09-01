@@ -10,6 +10,6 @@ class DistributeDollars
   end
 
   def call(params)
-    @distribution = 
+    @distribution = []
   end
 end

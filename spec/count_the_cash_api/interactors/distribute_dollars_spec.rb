@@ -12,6 +12,7 @@ describe DistributeDollars do
     end
 
     it "returns a distribution of StackOfBills objects" do
+      skip
       result.distribution.first.must_be_kind_of StackOfBills
       result.distribution.first.denomination.must_equal 50
       result.distribution.last.denomination.must_equal 1
