@@ -115,11 +115,14 @@ GEM
     jaro_winkler (1.5.1)
     mail (2.7.0)
       mini_mime (>= 0.1.1)
+    metaclass (0.0.4)
     mini_mime (1.0.1)
     mini_portile2 (2.3.0)
     minitest (5.11.3)
     minitest-matchers_vaccine (1.0.4)
       minitest (~> 5.0)
+    mocha (1.7.0)
+      metaclass (~> 0.0.1)
     nokogiri (1.8.4)
       mini_portile2 (~> 2.3.0)
     parallel (1.12.1)
@@ -188,6 +191,7 @@ DEPENDENCIES
   hanami-webconsole
   minitest
   minitest-matchers_vaccine
+  mocha
   rake
   ramsey_cop
   shotgun

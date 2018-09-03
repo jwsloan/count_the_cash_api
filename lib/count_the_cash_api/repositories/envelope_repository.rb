@@ -1,5 +1,5 @@
 class EnvelopeRepository < Hanami::Repository
   associations do 
-    has_many :stacks
+    has_many :bills
   end
 end

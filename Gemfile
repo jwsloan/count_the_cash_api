@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+
 gem "hanami", "~> 1.3.beta1"
 gem "hanami-model", "~> 1.3.beta1"
 gem "rake"
@@ -22,6 +23,7 @@ group :test do
   gem "capybara"
   gem "minitest"
   gem "minitest-matchers_vaccine"
+  gem "mocha"
 end
 
 group :production do

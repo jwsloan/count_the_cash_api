@@ -5,4 +5,6 @@ require_relative "../config/environment"
 require "minitest/spec"
 require "minitest/autorun"
 require "minitest/matchers_vaccine"
+require 'mocha/minitest'
+
 Hanami.boot
