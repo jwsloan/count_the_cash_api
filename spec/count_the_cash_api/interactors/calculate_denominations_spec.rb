@@ -1,7 +1,7 @@
 require "spec_helper"
 
-describe CalculateBillsRequired do
-  let(:interactor) { CalculateBillsRequired.new }
+describe CalculateDenominations do
+  let(:interactor) { CalculateDenominations.new }
   let(:attributes) { Hash[amount: 234]}
   
   describe "good input" do
