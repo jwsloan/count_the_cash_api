@@ -15,14 +15,8 @@ class CalculateDenominations
     remaining = params[:amount]
     allowed_denominations.each do |value|
       count = remaining / value
-      @counts << [denomination_for(value), count]
+      @counts << [value, count]
       remaining -= (value * count)
     end
-  end
-
-private
-
-  def denomination_for(value)
-    value
   end
 end

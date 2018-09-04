@@ -5,6 +5,10 @@ class DenominationRepository < Hanami::Repository
   end
 
   def by_value(value)
-    denominations.where(value: value).first
+    denominations.where(value: value).one
+  end
+
+  def for_values(values)
+    denominations.where(value: values).to_a
   end
 end
